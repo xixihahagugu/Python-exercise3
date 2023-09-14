@@ -1,9 +1,13 @@
-#exercise3.1
-length =int(input("Enter the length of a zander in centimeters"))
-if length < 42:
-    x = 42-length
-    print(f"Release the fish back into the lake,below the size limit the caught fish was：{x}cm")
+#exercise3.2
+X = input("Enter the cabin class of a cruise ship:" )
+
+if X=="LUX":
+    print("upper-deck cabin with a balcony")
+elif X=="A":
+    print("above the car deck, equipped with a window.")
+elif X=="B":
+    print("windowless cabin above the car deck.")
+elif X=="C":A
+    print("windowless cabin below the car deck.")
 else:
-    print("catch fish")
-
-
+    print("Invalid cabin class")
