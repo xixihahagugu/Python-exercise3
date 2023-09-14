@@ -1,4 +1,4 @@
-#exercise3
+#exercise3.1
 length =int(input("Enter the length of a zander in centimeters"))
 if length < 42:
     x = 42-length
