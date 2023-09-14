@@ -1,5 +1,7 @@
-#exercise2.1
-user = input("What is your name?")
-print("Hello, " + user + "!")
+#exercise2.2
+import math
 
+radius = float(input("Enter the radius of the circle: "))
+area = math.pi * (radius ** 2)
 
+print(f"The area of the circle is {area:.2f}")
