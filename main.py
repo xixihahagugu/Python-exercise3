@@ -1,4 +1,5 @@
-#exercise1
-print("Hello, Mengna!")
+#exercise2.1
+user = input("What is your name?")
+print("Hello, " + user + "!")
 
 
