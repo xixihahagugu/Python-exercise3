@@ -1,7 +1,8 @@
-#exercise2.2
-import math
-length = float(input("Enter the length of a rectangle"))
-width = float(input("Enter the width of a rectangle"))
-area = length*width
-
-print(f"The area of the rectangle is {area:.1f}")
+#exercise2.4
+a = int(input("please give a number"))
+b = int(input("please give a number"))
+c = int(input("please give a number"))
+sum = a+b+c
+product = a*b*c
+average = sum/3
+print(sum,product,average)
