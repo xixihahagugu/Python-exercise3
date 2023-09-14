@@ -7,7 +7,7 @@ elif X=="A":
     print("above the car deck, equipped with a window.")
 elif X=="B":
     print("windowless cabin above the car deck.")
-elif X=="C":A
+elif X=="C":
     print("windowless cabin below the car deck.")
 else:
     print("Invalid cabin class")
